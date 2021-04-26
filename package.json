@@ -1,21 +1,34 @@
 {
-  "name": "Node",
-  "version": "1.0.0",
-  "description": "",
+  "name": "image-recommendation-bot",
+  "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongodb": "^3.6.6",
     "natural": "^5.0.3",
+    "mongodb": "^3.6.6",
     "pg": "^8.6.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xicks/image-recommendation-bot.git"
+  },
+  "author": "Xicks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xicks/image-recommendation-bot/issues"
+  },
+  "homepage": "https://github.com/Xicks/image-recommendation-bot#readme",
+  "description": "",
+  "engines": {
+    "node": "14.16.1"
+  },
+  "scripts": {
+  	"start": "PORT=$PORT node src/index.js"
+  }
 }
