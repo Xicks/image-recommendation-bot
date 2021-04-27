@@ -4,11 +4,11 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const pool = new Pool({
-		connectionString: process.env.DATABASE_URL
+	connectionString: process.env.DATABASE_URL
 });
 
 pool.on('connect', () => {
-		console.log('Databased connection stablished succesfully.')
+	console.log('Databased connection stablished succesfully.')
 });
 
 module.exports = {
